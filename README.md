@@ -107,15 +107,12 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 ![image](https://user-images.githubusercontent.com/127144315/223844840-717feab1-2709-4f5d-92d9-6bd8a7ac7aec.png)
 
 #### SEMACS Real-Time Database
-![image](https://user-images.githubusercontent.com/127144315/223845064-f30412c8-525d-457c-a4f9-145553099165.png)
+![WhatsApp Image 2023-03-09 at 2 23 30 AM](https://user-images.githubusercontent.com/127144315/223847460-ce3c80cb-12b4-41f8-a68a-bc4bb17bbfea.jpeg)
 
 #### Parameter Display
-![image](https://user-images.githubusercontent.com/127144315/223845595-e2b457bf-fcd6-4b07-a28a-e937a1c6c038.png)
+![WhatsApp Image 2023-03-09 at 2 23 30 AM (1)](https://user-images.githubusercontent.com/127144315/223847522-d2eddc7b-c720-4bbe-ab90-4611382727a1.jpeg)
 
 ## SEMACS Application UI
-#### Onboarding (Start-up) screen
-
-
 #### Main Dashboard
 ![WhatsApp Image 2023-03-09 at 1 21 38 AM](https://user-images.githubusercontent.com/127144315/223833541-a061c01b-c190-46f0-ba09-0a1ba1cc4de5.jpeg)
 
