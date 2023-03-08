@@ -15,7 +15,7 @@ Real-time-health-monitoring-system-using-Internet-of-Things <a name="TOP"></a>
 * [Microcontroller Specifications](#Microcontroller-Specifications)
 * [Microcontroller Interfacing](#Microcontroller-Interfacing)
 * [Schematic](#Schematic)
-* [SEMACS Application UI](#SmartBank-Connect-Application-UI)
+* [SEMACS Application UI](#SEMACS-Application-UI)
 * [References](#References)
 
 ## Introduction
