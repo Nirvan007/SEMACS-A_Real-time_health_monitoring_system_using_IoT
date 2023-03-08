@@ -19,7 +19,7 @@ Real-time-health-monitoring-system-using-Internet-of-Things <a name="TOP"></a>
 * [References](#References)
 
 ## Introduction
-A real-time health monitoring system (Health Band) that monitors health related parameters like Heart rate, SpO2, Body temperature, Room temperature, Sleep duration, Fall detection and Emergency call button.
+A real-time health monitoring system (Health Band) that monitors health related parameters like Heart rate, SpO2, Body temperature, Room temperature, Sleep duration, Fall detection and Emergency call button. This device was intended to be used by elderly people and patients (non-serious) that live alone away from their family and hence, the name SEMACS - Smart Elderly Monitoring and Care System. With the help of IoT, the relatives or the family members of these individuals can keep a check on the person who is wearing it, and also be able to get a notification if there is any mishap, or emergency. This band can also be used by people who want use it as a regular health or fitness band inorder to check their health and performance in day-to-day life. 
 
 ## Features
 The SEMACS Health Band is equipped with the following features:
@@ -33,11 +33,11 @@ The SEMACS Health Band is equipped with the following features:
 * Fall detection alarm and notification
 * Emergency call button
 
-
 ## Unique Features
 * Works on the Internet of Things, and hence health parameters of the user can be monitored from anywhere in the world with the help of an Internet connection.
 * Parameter monitoring using SEMACS Mobile App
-* 1000 mAh lithium-ion battery backup
+* All heatlh related data is stored and forwarded to the application in real-time using a Real-Time Database (RTDB) with the help of Google Firebase.
+* 1000 mAh lithium-ion battery that is rechargeable and gives a long battery backup.
 
 ## Tools Used
 #### EasyEDA
@@ -88,12 +88,16 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 
 ## Microcontroller Interfacing
 * Used I2C protocol to interface the microcontroller to:
-  1. MAX30102 Heart rate and Pulse Oximeter sensor
-  2. MPU6050 Gyroscope and Accelerometer
+  1. MAX30102 Heart rate and Pulse Oximeter sensor for Heart rate and SpO2 monitoring.
+  2. MPU6050 Gyroscope and Accelerometer for sleep detection and fall detection.
+  3. 128x64 OLED Display for displaying all the measured parameters to the user.
 * Used WiFi (2.4GHz) for Connectivity with the SEMACS Mobile Application.
 * Interfaced the DS18B20 Digital temperature sensor to monitor the body temperature.
 * Interfaced the DHT11 Temperature and Humidity sensor to monitor the room temperature and humidity.
 * Push Button for switching screens on the OLED display and for sending an emergency call notification.
+
+## Schematic
+
 
 ## SEMACS Application UI
 #### Onboarding (Start-up) screen
@@ -106,4 +110,3 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 ## References
  - [1] https://www.analog.com/en/products/max30102.html#product-overview
  - [2] 
- - [3] 
