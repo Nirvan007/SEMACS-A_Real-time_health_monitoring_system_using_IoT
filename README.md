@@ -71,21 +71,21 @@ Google Firebase is a Google-backed application development software that enables
 2. MAX30102 Heart rate and SpO2 sensor
 3. DS18B20 Digital temperature sensor
 4. MPU6050 Gyroscope and Accelerometer
-5. 
+5. I2C 128x64 OLED Display
+6. Push Buttons
 
 ## Microcontroller Specifications
-* Espressif System's ESP32-C3FH4
-* 32-bit RISC-V single-core processor
-* Clock speed up to 160 MHz
-* 384 KB ROM
-* 400 KB SRAM (16 KB for cache)
-* WiFi - IEEE 802.11 b/g/n-compliant
-* Bluetooth LE: (Speed: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps)
-  * Bluetooth 5
-  * Bluetooth mesh
-* Peripherals: 
-  * GPIO, SPI, UART, I2C, I2S, LED PWM controller, USB Serial/JTAG controller,Temperature sensor, SAR ADC
-* Antenna: On-board PCB antenna (ESP32-C3-MINI-1)
+Espressif System's ESP8266 microcontroller has the following specifications:
+* Tensilica 32-bit RISC CPU Xtensa LX106
+* Operating Voltage: 3.3V
+* Input Voltage: 7-12V
+* Digital I/O Pins: 16
+* Analog Input Pins (ADC): 1
+* Peripherals Interfaces: 1 - UART, 1 - SPI, and 1 - I2C
+* Flash Memory: 4 MB, SRAM: 64KB
+* Clock Speed: 80 MHz
+* USB-TTL based on CP2102 is included onboard, Enabling Plug n Play
+* Onboard PCB Antenna
 
 ## Power Bank SoC Specifications
 * Injoinic Technology IP5328P with Fully Integrated Bi directional PD3.0 and Fast Charge Power Bank SOC
