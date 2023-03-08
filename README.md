@@ -37,7 +37,7 @@ The SEMACS Health Band is equipped with the following features:
 ## Unique Features
 * Works on the Internet of Things, and hence health parameters of the user can be monitored from anywhere in the world with the help of an Internet connection.
 * Parameter monitoring using SEMACS Mobile App
-* 
+* 1000 mAh lithium-ion battery backup
 
 ## Tools Used
 #### EasyEDA
@@ -65,7 +65,6 @@ Google Firebase is a Google-backed application development software that enables
 * For more details refer: <https://firebase.google.com/>
 
 ## Hardware Components Used
-
 1. Nodemcu ESP8266 microcontroller
 2. MAX30102 Heart rate and SpO2 sensor
 3. DS18B20 Digital temperature sensor
@@ -83,24 +82,28 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 * Peripherals Interfaces: 1 - UART, 1 - SPI, and 1 - I2C
 * Flash Memory: 4 MB, SRAM: 64KB
 * Clock Speed: 80 MHz
+* 802.11 n support (2.4 GHz ~ 2.5 GHz), up to 72.2 Mbps 
 * USB-TTL based on CP2102 is included onboard, Enabling Plug n Play
 * Onboard PCB Antenna
 
 ## Microcontroller Interfacing
-* Used I2C protocol to interface ESP32C3 Microcontroller to IP5328P Power Bank SoC
-* Used BLE 5.0 for Connectivity with the SmartBank Mobile Application
-* Interfaced DS18B20 Digital temperature sensor to monitor the Power Bank's battery temperature
-* LED and Buzzer for the Find My Device Feature as an output device
-* Push Button for Turning ON/OFF, Torch, and Connectivity
+* Used I2C protocol to interface the microcontroller to:
+  1. MAX30102 Heart rate and Pulse Oximeter sensor
+  2. MPU6050 Gyroscope and Accelerometer
+* Used WiFi (2.4GHz) for Connectivity with the SEMACS Mobile Application.
+* Interfaced the DS18B20 Digital temperature sensor to monitor the body temperature.
+* Interfaced the DHT11 Temperature and Humidity sensor to monitor the room temperature and humidity.
+* Push Button for switching screens on the OLED display and for sending an emergency call notification.
 
 ## SEMACS Application UI
 #### Onboarding (Start-up) screen
 
 
 #### Main Dashboard
+![WhatsApp Image 2023-03-09 at 1 21 38 AM](https://user-images.githubusercontent.com/127144315/223833541-a061c01b-c190-46f0-ba09-0a1ba1cc4de5.jpeg)
 
 
 ## References
- - [1] 
+ - [1] https://www.analog.com/en/products/max30102.html#product-overview
  - [2] 
  - [3] 
