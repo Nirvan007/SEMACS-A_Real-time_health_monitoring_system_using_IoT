@@ -118,5 +118,6 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 
 ## References
  - [1] https://www.analog.com/en/products/max30102.html#product-overview
- - [2] https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/
+ - [2] https://ieeexplore.ieee.org/document/8540606
  - [3] https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/#:~:text=MAX30102%20Module%20Pinout,-The%20MAX30102%20module&text=You%20can%20connect%20it%20to,an%20interrupt%20for%20each%20pulse.
+ - [4] https://ieeexplore.ieee.org/document/9153994
