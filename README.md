@@ -97,7 +97,20 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 * Push Button for switching screens on the OLED display and for sending an emergency call notification.
 
 ## Schematic
+![image](https://user-images.githubusercontent.com/127144315/223844096-c96638e7-28e1-4cd9-b39b-7ca7b42ead74.png)
 
+## Google Firebase (Back-end Real-Time Database)
+#### Projects interface
+![image](https://user-images.githubusercontent.com/127144315/223844498-3c206e85-dd1c-41f6-998f-936464151265.png)
+
+#### SEMACS Project Overview
+![image](https://user-images.githubusercontent.com/127144315/223844840-717feab1-2709-4f5d-92d9-6bd8a7ac7aec.png)
+
+#### SEMACS Real-Time Database
+![image](https://user-images.githubusercontent.com/127144315/223845064-f30412c8-525d-457c-a4f9-145553099165.png)
+
+#### Parameter Display
+![image](https://user-images.githubusercontent.com/127144315/223845595-e2b457bf-fcd6-4b07-a28a-e937a1c6c038.png)
 
 ## SEMACS Application UI
 #### Onboarding (Start-up) screen
@@ -106,7 +119,7 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 #### Main Dashboard
 ![WhatsApp Image 2023-03-09 at 1 21 38 AM](https://user-images.githubusercontent.com/127144315/223833541-a061c01b-c190-46f0-ba09-0a1ba1cc4de5.jpeg)
 
-
 ## References
  - [1] https://www.analog.com/en/products/max30102.html#product-overview
- - [2] 
+ - [2] https://lastminuteengineers.com/mpu6050-accel-gyro-arduino-tutorial/
+ - [3] https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/#:~:text=MAX30102%20Module%20Pinout,-The%20MAX30102%20module&text=You%20can%20connect%20it%20to,an%20interrupt%20for%20each%20pulse.
