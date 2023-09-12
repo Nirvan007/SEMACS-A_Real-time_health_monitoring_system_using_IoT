@@ -100,7 +100,7 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 ## Schematic
 ![image](https://user-images.githubusercontent.com/127144315/223844096-c96638e7-28e1-4cd9-b39b-7ca7b42ead74.png)
 
-## Completed Hardware
+## Completed Hardware Assembly
 ![image](https://github.com/Nirvan007/Real-time-health-monitoring-system-using-Internet-of-Things/assets/127144315/49bc9b4f-90aa-49cb-be2e-77df2ca451d8)
 
 ## Google Firebase (Back-end Real-Time Database)
