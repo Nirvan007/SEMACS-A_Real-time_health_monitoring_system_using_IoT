@@ -1,4 +1,4 @@
-Real-time-health-monitoring-system-using-Internet-of-Things <a name="TOP"></a>
+Real time healthmonitoring band using Internet of Things <a name="TOP"></a>
 ===================
 
 ## Table of Contents
