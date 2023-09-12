@@ -15,6 +15,7 @@ Real time healthmonitoring band using Internet of Things <a name="TOP"></a>
 * [Microcontroller Specifications](#Microcontroller-Specifications)
 * [Microcontroller Interfacing](#Microcontroller-Interfacing)
 * [Schematic](#Schematic)
+* [Completed Hardware Assembly](#Completed-Hardware-Assembly)
 * [SEMACS Application UI](#SEMACS-Application-UI)
 * [References](#References)
 
