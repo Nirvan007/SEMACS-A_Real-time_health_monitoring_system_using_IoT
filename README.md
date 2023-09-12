@@ -19,7 +19,7 @@ Real time healthmonitoring band using Internet of Things <a name="TOP"></a>
 * [References](#References)
 
 ## Introduction
-A real-time health monitoring system (Health Band) that monitors health related parameters like Heart rate, SpO2, Body temperature, Room temperature, Sleep duration, Fall detection and Emergency call button. This device was intended to be used by elderly people and patients (non-serious) that live alone away from their family and hence, the name SEMACS - Smart Elderly Monitoring and Care System. With the help of IoT, the relatives or the family members of these individuals can keep a check on the person who is wearing it, and also be able to get a notification if there is any mishap, or emergency. This band can also be used by people who want use it as a regular health or fitness band inorder to check their health and performance in day-to-day life. 
+A real-time health monitoring system (Health Band) that monitors health-related parameters like Heart rate, SpO2, Body temperature, Room temperature, Sleep duration, Fall detection, and Emergency call button. This device was intended to be used by elderly people and patients (non-serious) who live alone away from their family and hence, the name SEMACS - Smart Elderly Monitoring and Care System. With the help of IoT, the relatives or the family members of these individuals can keep a check on the person who is wearing it, and also be able to get a notification if there is any mishap or emergency. This band can also be used by people who want to use it as a regular health or fitness band in order to check their health and performance in day-to-day life. 
 
 ## Features
 The SEMACS Health Band is equipped with the following features:
@@ -28,7 +28,7 @@ The SEMACS Health Band is equipped with the following features:
 * Body Temperature monitoring
 * Room Temperature monitoring
 * Room Humidity monitoring
-* Sleep duration and sleepcycle monitoring 
+* Sleep duration and sleep cycle monitoring 
 * Fever or high body temperature detection
 * Fall detection alarm and notification
 * Emergency call button
@@ -36,7 +36,7 @@ The SEMACS Health Band is equipped with the following features:
 ## Unique Features
 * Works on the Internet of Things, and hence health parameters of the user can be monitored from anywhere in the world with the help of an Internet connection.
 * Parameter monitoring using SEMACS Mobile App
-* All heatlh related data is stored and forwarded to the application in real-time using a Real-Time Database (RTDB) with the help of Google Firebase.
+* All health related data is stored and forwarded to the application in real-time using a Real-Time Database (RTDB) with the help of Google Firebase.
 * 1000 mAh lithium-ion battery that is rechargeable and gives a long battery backup.
 
 ## Tools Used
@@ -49,7 +49,7 @@ Arduino Integrated Development Environment or Arduino Software (IDE) contains a 
 * For more details refer: <https://www.arduino.cc/en/software>
 
 #### Fritzing
-Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs. 
+Fritzing is an open-source hardware initiative that makes electronics accessible as creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs. 
 * For more details refer: <https://fritzing.org/>
 
 #### Figma
@@ -57,11 +57,11 @@ Figma is a powerful web-based design tool that helps you create anything, websit
 * For more details refer: https://www.figma.com/
 
 #### Flutter
-Flutter is a mobile app development platform created by Google. It allows developers to create web, desktop, and cross-platform apps that run on Android and iOS devices. Flutter uses a reactive programming language called Dart, making development faster and easier than traditional methods. Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.
+Flutter is a mobile app development platform created by Google. It allows developers to create web, desktop, and cross-platform apps that run on Android and iOS devices. Flutter uses a reactive programming language called Dart, making development faster and easier than traditional methods. Flutter is an open-source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.
 * For more details refer: https://flutter.dev/
 
 #### Google Firebase
-Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment. The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in realtime.
+Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiments. The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in real time.
 * For more details refer: <https://firebase.google.com/>
 
 ## Hardware Components Used
@@ -83,7 +83,7 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 * Flash Memory: 4 MB, SRAM: 64KB
 * Clock Speed: 80 MHz
 * 802.11 n support (2.4 GHz ~ 2.5 GHz), up to 72.2 Mbps 
-* USB-TTL based on CP2102 is included onboard, Enabling Plug n Play
+* USB-TTL based on CP2102 is included onboard, Enabling Plug-n-Play
 * Onboard PCB Antenna
 
 ## Microcontroller Interfacing
@@ -98,6 +98,9 @@ Espressif System's ESP8266 microcontroller has the following specifications:
 
 ## Schematic
 ![image](https://user-images.githubusercontent.com/127144315/223844096-c96638e7-28e1-4cd9-b39b-7ca7b42ead74.png)
+
+## Completed Hardware
+![image](https://github.com/Nirvan007/Real-time-health-monitoring-system-using-Internet-of-Things/assets/127144315/49bc9b4f-90aa-49cb-be2e-77df2ca451d8)
 
 ## Google Firebase (Back-end Real-Time Database)
 #### Projects interface
